@@ -1,39 +1,10 @@
-# Python
+data/
+venv/
+notebooks/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-*.ipynb_checkpoints/
-.env # Environment variables
-
-# Jupyter/IPython
-.ipynb_checkpoints
-.jupyter
-jupyter_notebook_config.py
-
-# Data
-data/raw/        # Raw data is often too large for Git, or sensitive
-data/processed/  # Processed data can also be large; consider DVC for this
-*.csv
-*.tsv
-*.json
-*.parquet
-*.feather
-*.hdf5
-
-# Models
-models/          # Trained models can be large
-*.pkl
-*.h5
-*.bin
-
-# Logs
 *.log
-
-# OS specific
+*.db
 .DS_Store
-Thumbs.db
+reports/
+models/
